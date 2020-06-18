@@ -1,0 +1,74 @@
+/* 
+Cor de fundo da página é 255,255,255.
+Cor de fundo do card principal 250,250,250
+botão é 227,233,237
+cor da letra 29,82,157
+*/
+
+body {
+    background-color: rgb(255,255,255);
+}
+
+.card-principal {
+    background-color: rgb(250,250,250);
+    width: 240px;
+    height: 337px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 170px;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.logo {
+    text-align: center;
+    font-size: 50px;
+    color: rgb(29,82,157);
+    font-weight: 600;
+}
+
+.form-login {
+    margin-top: 30px;
+}
+
+input {
+    width: 100%;
+    border: 0px;
+    background-color: rgb(250,250,250);
+    border-bottom: 1px solid rgb(29,82,157);
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(29,82,157);
+    font-weight: 600;
+}
+
+label {
+    color: rgb(29,82,157);
+    font-weight: 600;
+}
+
+.secao-senha{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#btn-entrar {
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(227,233,237);
+    border: 0px;
+    color: rgb(29,82,157);
+    font-weight: 600;
+    font-size: 15px;
+    margin-top: 20px;
+  
+}
+
+.input-login:focus, #btn-entrar:focus {
+    outline: none;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: rgb(217,223,227);
+}
